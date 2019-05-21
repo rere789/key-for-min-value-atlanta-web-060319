@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   min = []
   name_hash.each do |name, num|
     if num < index
-      
+      min = name 
     end
   end 
   min 
